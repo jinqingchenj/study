@@ -1,5 +1,1 @@
-qwqwqwqwqwq
-
-qwqwwqwqwq
-
-wqw
+print('你好666')
