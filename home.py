@@ -49,15 +49,15 @@
 # format引用字典
 # site = {"name": "菜鸟教程", "url": "www.runoob.com"}
 # print("网站名：{name}, 地址 {url}".format(**site))
-
-def fib(na):
-    l = ['teacher','miss','man']
-    for x in l:
-        yield na+x
-    return 'done'
-f = fib('ss')
-next(f)
-print(f.send('dd'))
+# 生成器
+# def fib(na):
+#     l = ['teacher','miss','man']
+#     for x in l:
+#         yield na+x
+#     return 'done'
+# f = fib('ss')
+# next(f)
+# print(f.send('dd'))
 
 
 
