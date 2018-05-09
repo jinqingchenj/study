@@ -5,11 +5,11 @@
 #     print('管理员')
 # else:
 #     print('游客')
-#引入自定义包
+# 引入自定义包
 # from mypackage.test1 import *
 # a()
 # b()
-#查看数据类型
+# 查看数据类型
 # print(type(12))
 # print(isinstance(12,int))
 # print(id(12))
@@ -35,12 +35,14 @@
 #         live = input('续命输入任意值，放弃请输入"n"')
 #         if live != 'n':
 #             times = 3
-
+# 求1-10双数
 # l = []
 # for x in range(10):
 #     if x%2 ==0 :
 #         x**=2
 #         l.append(x)
 # print(l)
-
+# 强制类型转换与字符串拼接
+# print(int('12')+12)
+# print('12%i'%(12))
 
